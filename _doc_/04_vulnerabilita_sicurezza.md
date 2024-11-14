@@ -94,7 +94,7 @@ Oltre all'uso di htmlspecialchars, per proteggere i cookie da questo tipo di att
 ```php
 <?php
 setcookie("session_id", "123456", [
-    'httponly' => true,    // Previene l'accesso via JavaScript
+    'httponly' => true,    // Previene l accesso via JavaScript
     'secure' => true,      // Solo HTTPS
     'samesite' => 'Strict' // Previene CSRF
 ]);
